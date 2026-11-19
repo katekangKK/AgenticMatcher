@@ -1,0 +1,70 @@
+{
+  "dataset": "gdc",
+  "source": "https://github.com/VIDA-NYU/magneto-matcher",
+  "files": {
+    "source-tables/Cao.csv": "2bb5192b04596178a8f72843f011d80a7da2d4178e349bbd47fc3d27c32c73f4",
+    "source-tables/Clark.csv": "41c08d7f913e0ad9355ae64bb30dcc208f1a38bec2408ddb6c1c6a0bd8f967e0",
+    "source-tables/Dou.csv": "7287ef48902e4d9932462eb0156895269897250394d1f564c052f7767d1eb8cc",
+    "source-tables/Gillette.csv": "3ed8cc0433766fff949ba9ba678fb7d691a53e3232f52ad39d26c3a69dfb1738",
+    "source-tables/Huang.csv": "772e1e58a1a0a941099d8c2ea48dd7c1fb80e052ae9bc7f1ac00090ec36930d5",
+    "source-tables/Krug.csv": "dc588a340aded1fb98f92ff9ecbe3873c90389129917aa5bf7589fa420820c54",
+    "source-tables/McDermott.csv": "48c1b2a186231e2c2fd17fac72701ec13c4efdc4951cc628eb5b1efb93219ca4",
+    "source-tables/Satpathy.csv": "d5b6c2599bad2b8a0ac1b633aad77cb6b0d28612565a8bcf96973d42881245e1",
+    "source-tables/Vasaikar.csv": "6327d4637dfc3a722e51aa22b061bdcc7bf25cadf20a95a65a9bb0c3a53d7603",
+    "source-tables/Wang.csv": "884f6ccfc70e324783c2cf125353bdf6cd6a626199985f0686d2ccbf6d056696",
+    "target-tables/gdc_unique_columns_concat_values.csv": "a876529b52876e852bb0b8e40bbb49a225c28b07836023e3c1d728519fcecce3",
+    "ground-truth/Cao.csv": "f4b8cf8301cab1f14c93e3d54271876b470566904af078bff8d0da086b7ff848",
+    "ground-truth/Clark.csv": "9bcce4851ebb529752040ad6d4f4da09aa1f085f9d3f176cf6361029dd4465d1",
+    "ground-truth/Dou.csv": "680f78cb16409db659e58d59d67a21607217286de693e099c1336d4d7c28d92f",
+    "ground-truth/Gillette.csv": "50f9b5a0613605dae38dc7dcfe7e8affbd0ecfb61dfb09e22bc8ccf137072830",
+    "ground-truth/Huang.csv": "4569c4d3713736499711ac55772aca0f358937bc13391db3f67e861edbc7d027",
+    "ground-truth/Krug.csv": "d35171d42cdbe76e399a8eaf9d549f96f4b947bfb63d3c1ddd400252b4aa8a44",
+    "ground-truth/McDermott.csv": "f5177ccbc6b3a282739ee4a9f364a6762b7910343d151dac5ae8c1994d80483d",
+    "ground-truth/Satpathy.csv": "bdf6300b49c02951b666c16956633103923b3c6298c54a32777af6ad427dc32a",
+    "ground-truth/Vasaikar.csv": "c85cff9dfb7aadc36d92adec32780ccdebc24910f80b2b3df8c9dcc982751ab6",
+    "ground-truth/Wang.csv": "46352f3ebcfc05f70de9ffc3d6f02a857a829f3771e827d39a2e1ef2540f50f5"
+  },
+  "dictionary_sha256": "505e4cfd0153272e547cfc6a2d47a8eabdd8238ae4556097a476381cc9a92928",
+  "tasks": [
+    {
+      "name": "Cao",
+      "source_columns": 39
+    },
+    {
+      "name": "Clark",
+      "source_columns": 16
+    },
+    {
+      "name": "Dou",
+      "source_columns": 179
+    },
+    {
+      "name": "Gillette",
+      "source_columns": 67
+    },
+    {
+      "name": "Huang",
+      "source_columns": 37
+    },
+    {
+      "name": "Krug",
+      "source_columns": 54
+    },
+    {
+      "name": "McDermott",
+      "source_columns": 22
+    },
+    {
+      "name": "Satpathy",
+      "source_columns": 82
+    },
+    {
+      "name": "Vasaikar",
+      "source_columns": 45
+    },
+    {
+      "name": "Wang",
+      "source_columns": 28
+    }
+  ]
+}

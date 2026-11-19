@@ -1,0 +1,18 @@
+GDC data dictionary
+
+asm/resources/gdc_dictionary.json contains selected and reformatted public
+field definitions and metadata from the NCI Genomic Data Commons dictionary:
+https://api.gdc.cancer.gov/v0/submission/_dictionary/_all
+https://github.com/NCI-GDC/gdcdictionary
+Historical definitions and enumeration values include versions 3.4.0 and 3.3.0.
+
+Modifications: entries were selected and converted to the documentation JSON
+interface, with retrieval text assembled from field metadata and shortened
+enumeration samples. This file is not an unmodified upstream distribution.
+
+The gdcdictionary project's Apache-2.0 license and upstream copyright notice
+are reproduced in licenses/GDC-LICENSE.txt and licenses/GDC-NOTICE.txt.
+These upstream terms are separate from AgenticMatcher's own LICENSE.
+
+Python dependencies and the separately downloaded embedding model retain
+their respective licenses. Benchmark CSV tables are not bundled.

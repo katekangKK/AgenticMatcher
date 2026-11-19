@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=77", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "agenticmatcher"
+version = "0.1.0"
+description = "AgenticMatcher: A Tool-Augmented LLM Agent for Schema Matching"
+readme = "README.md"
+requires-python = ">=3.11"
+license = "LicenseRef-Proprietary"
+license-files = ["LICENSE", "THIRD_PARTY_NOTICES.txt", "licenses/*"]
+dependencies = [
+  "numpy>=1.24,<3", "pandas>=2,<3", "openai>=1,<3",
+  "joblib>=1.3,<2", "scikit-learn==1.8.0",
+  "rapidfuzz>=3,<4", "jellyfish>=1,<2", "Levenshtein>=0.25,<1"
+]
+
+[project.optional-dependencies]
+embeddings = ["sentence-transformers>=2.2,<6"]
+
+[project.scripts]
+agenticmatcher = "asm.cli:main"
+agenticmatcher-reproduce = "asm.reproduce:main"
+
+[tool.setuptools.packages.find]
+include = ["asm*"]
+namespaces = false
+
+[tool.setuptools.package-data]
+asm = ["models/latest/*.json", "models/latest/*.joblib", "models/gdc/*/*.json", "models/gdc/*/*.joblib", "resources/*.json"]
+
+[tool.setuptools.data-files]
+"share/agenticmatcher/examples" = ["examples/*.csv", "examples/*.json"]

@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "description": "Synthetic interface example, not an experimental result or a trained prediction.",
+  "predictions": [
+    {
+      "source_column": "item_label",
+      "predicted_candidates": [
+        [
+          "product_name",
+          0.85
+        ],
+        [
+          "product_id",
+          0.3
+        ]
+      ],
+      "pre_submit_snapshot": {
+        "schema_version": 2,
+        "capture_stage": "before_first_submit_attempt",
+        "raw_ranked_candidates": [
+          "product_name",
+          "product_id"
+        ],
+        "ranked_candidates": [
+          "product_name",
+          "product_id"
+        ],
+        "raw_candidate_scores": {
+          "product_name": 0.85,
+          "product_id": 0.3
+        },
+        "candidate_proposals": [],
+        "candidate_proposal_history": [],
+        "tool_observations": [],
+        "evidence_events": []
+      },
+      "error": null
+    }
+  ]
+}

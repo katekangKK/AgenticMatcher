@@ -1,0 +1,19 @@
+{
+  "catalog": [
+    {
+      "term": "product_name",
+      "definition": "Human-readable name of a catalog product.",
+      "text": "product_name: Human-readable name of a catalog product."
+    },
+    {
+      "term": "product_id",
+      "definition": "Stable identifier of a catalog product.",
+      "text": "product_id: Stable identifier of a catalog product."
+    },
+    {
+      "term": "weight_kg",
+      "definition": "Product mass in kilograms.",
+      "text": "weight_kg: Product mass in kilograms."
+    }
+  ]
+}
